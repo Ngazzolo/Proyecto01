@@ -107,7 +107,7 @@ exports.up = function(knex) {
    knex seed:run
    ```
    
-   <h2> Demostración de proyecto por medio de video>
+   <h2> Demostración de proyecto por medio de video</h2>
    
    En la siguiente liga se muestra el proyecto en funcionamiento
    
