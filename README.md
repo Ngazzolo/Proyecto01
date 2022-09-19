@@ -109,4 +109,4 @@ exports.up = function(knex) {
    <h2> Demostración de proyecto por medio de video</h2>
    
    En la siguiente liga se muestra el proyecto en funcionamiento
-   https://youtu.be/bZpHfxUeNM4
+   <href>https://youtu.be/bZpHfxUeNM4</href>
