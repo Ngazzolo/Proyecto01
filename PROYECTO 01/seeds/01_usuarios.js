@@ -10,7 +10,6 @@ exports.seed = function(knex) {
         { referencia: 4 , nombre: null, telefono: null, correo: null, ticket:6987 },
         { referencia: 5 , nombre: null, telefono: null, correo: null, ticket:4312 },
         { referencia: 6 , nombre: null, telefono: null, correo: null, ticket:2222 },
-        { referencia: 7 , nombre: " ", telefono: " ", correo: " ", ticket:2222 },
       ]);
     });
 };
