@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{background-color: #FFE53B;background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 100%);min-height: 100vh;}.card{width:400px;background-color:#fff;border:none;border-radius: 12px}label.radio{cursor: pointer;width: 100%}label.radio input{position: absolute;top: 0;left: 0;visibility: hidden;pointer-events: none}label.radio span{padding: 7px 14px;border: 2px solid #eee;display: inline-block;color: #039be5;border-radius: 10px;width: 100%;height: 48px;line-height: 27px}label.radio input:checked+span{border-color: #039BE5;background-color: #81D4FA;color: #fff;border-radius: 9px;height: 48px;line-height: 27px}.form-control{margin-top: 10px;height: 48px;border: 2px solid #eee;border-radius: 10px}.form-control:focus{box-shadow: none;border: 2px solid #039BE5}.agree-text{font-size: 12px}.terms{font-size: 12px;text-decoration: none;color: #039BE5}.confirm-button{height: 50px;border-radius: 10px}
+    
+    .gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fccb90;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    }
+</style>
+<body>
+    <form method="POST" action="/ticket">
+        <div class="container mt-5 mb-5 d-flex justify-content-center">
+            <div class="card px-1 py-4">
+                <div class="text-center">
+                    <img src="https://www.freelogovectors.net/svg10/yakult-logo-freelogovectors.net_.svg" style="width: 185px;" alt="logo">
+                </div>
+                <div class="card-body text-center" >
+                    <h5 class="information mt-1">Ingresa para ver tú boleto !!!</h6>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="referencia" name = "referencia" placeholder="Referencia">
+                </div>
+                <div class=" d-flex flex-column text-center px-2 mt-3"> <button type="submit" class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3">Ingresar</button> </div>
+                <div class=" d-flex flex-column text-center px-2 ">  <a href="/" class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" role="button" aria-pressed="true">Volver al incio</a></div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
